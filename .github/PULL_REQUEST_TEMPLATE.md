@@ -13,12 +13,14 @@ Learn more about contributing: [CONTRIBUTING.md](https://github.com/nf-core/modu
 
 ## PR checklist
 
+Closes #XXX <!-- If this PR fixes an issue, please link it here! -->
+
 - [ ] This comment contains a description of changes (with reason).
 - [ ] If you've fixed a bug or added code that should be tested, add tests!
 - [ ] If you've added a new tool - have you followed the module conventions in the [contribution docs](https://github.com/nf-core/modules/tree/master/.github/CONTRIBUTING.md)
 - [ ] If necessary, include test data in your PR.
 - [ ] Remove all TODO statements.
-- [ ] Emit the `<SOFTWARE>.version.txt` file.
+- [ ] Emit the `versions.yml` file.
 - [ ] Follow the naming conventions.
 - [ ] Follow the parameters requirements.
 - [ ] Follow the input/output options guidelines.
